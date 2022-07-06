@@ -21,8 +21,6 @@ color: whitesmoke;
 
 }
 
-
-
 .top-banner-bg{
     display: flex;
     align-items: center;
@@ -30,8 +28,8 @@ color: whitesmoke;
     background-size: cover !important;
     margin:0;
     border: 0;
-    
 }
+
 .donate-button{
     background-color:rgb(219, 92, 92);
     color:azure;
@@ -40,6 +38,7 @@ color: whitesmoke;
     text-decoration: none;
     font-weight: 700;
     margin: 0;
+    font-size: 25px;
 }
 .subscribe-button{
     background-color:rgb(219, 92, 92);
@@ -60,22 +59,16 @@ color: whitesmoke;
     width:30%;
     font-size: 20px;
     font-weight: 700;
-    
     margin-left: 5%;
-    
     padding-left: 10px;
     padding-bottom: 40px;
     padding-top: 40px;
     padding-right: 2px;
     border-radius: 5px;
     box-shadow: 2px 2px 5px grey;
-    text-align: center;
-    
-    
-    
+    text-align: center; 
 }
 #red-color{
-    
     color:red;
     border:2px solid red;
     background-color: rgb(231, 210, 210);
@@ -84,9 +77,7 @@ color: whitesmoke;
     text-align: center;
     margin-top: 7%;
     margin-bottom: 3%;
-    
 }
-
 
 .section2-center{
     text-align: center;
@@ -97,11 +88,8 @@ color: whitesmoke;
 }
 .three-part-flex{
     display:flex;
-    
     margin-left: 10%;
-    margin-right: 10%;
-    background-color: ;
-    
+    margin-right: 10%; 
 }
 .bg1{
     background-color: rgb(222, 240, 240);
@@ -115,12 +103,8 @@ color: whitesmoke;
 .box-design{
     width:30%;
     font-size: 20px;
-    
     margin-left: 1%;
     margin-right: 1%;
-
-
-    
     padding-left: 10px;
     padding-bottom: 40px;
     padding-top: 40px;

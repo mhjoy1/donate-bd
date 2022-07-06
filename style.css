@@ -4,9 +4,14 @@ font-family: 'Rubik', sans-serif;
 }
 h1{
     font-size: 65px;
-    
-
-   
+  
+}
+h2{
+    font-size: 45px;
+}
+p{
+    font-size: 20px;
+    color: rgb(129, 126, 126);
 }
 .Top-Banner{
     width: 100%;
@@ -27,12 +32,13 @@ color: whitesmoke;
     
 }
 .donate-button{
-    background-color: rgb(206, 53, 27);
+    background-color:rgb(219, 92, 92);
     color:azure;
     padding:10px 28px;
-    border-radius: 3px;
+    border-radius: 6px;
     text-decoration: none;
     font-weight: 700;
+    margin: 0;
 }
 .flex-money{
     display:flex;
@@ -70,10 +76,7 @@ color: whitesmoke;
     margin-bottom: 3%;
     
 }
-#fontDonate{
-    font-size: 31px;
-    font-weight: 800;
-}
+
 .margin2{
     margin-bottom: 2px solid red;
     border-color: brown;
@@ -125,6 +128,14 @@ color: whitesmoke;
     padding-bottom: 2%;
     text-align: center;
     background-color: black;
+}
+.Last-portion{
+    background-color: blanchedalmond;
+    margin-top: 3%;
+    margin-left: 37%;
+    margin-right: 37%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 

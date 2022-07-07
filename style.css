@@ -10,24 +10,29 @@ h1{
 h2{
     font-size: 45px;
 }
+h4{
+    color: white;
+    font-weight:400; 
+    font-size: 18px;
+
+}
 p{
     font-size: 20px;
     color: rgb(129, 126, 126);
 }
 .Top-Banner{
-    width: 100%;
+    
     text-align: center;
 color: whitesmoke;
+position: absolute;
+top: 30%;
+left: 30%;
 
 }
 
-.top-banner-bg{
-    display: flex;
-    align-items: center;
-    height: 50rem;
-    background-size: cover !important;
-    margin:0;
-    border: 0;
+#top-banner-bg{
+    width: 100%;
+    height: 930px;
 }
 
 .donate-button{
@@ -78,6 +83,14 @@ color: whitesmoke;
     margin-top: 7%;
     margin-bottom: 3%;
 }
+hr{
+    height: 2px; width: 30%; border-width:0; color:gray; background-color: rgb(199, 186, 186);
+}
+#taka{
+    height: 2.3rem; width: 15%; background-color: rgb(255, 251, 251); border: 0; 
+    border-radius: 6px;
+        
+}
 
 .section2-center{
     text-align: center;
@@ -113,12 +126,21 @@ color: whitesmoke;
     box-shadow: 2px 2px 5px grey;
     text-align: left;
 }
+#email{
+    padding-top: 2.3%;
+    padding-bottom: 2.3%;
+    border: none;
+    background-color: rgb(233, 228, 228);
+}
 .footer{
     margin-top: 4%;
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
     background-color: black;
+}
+#footer1st-text{
+    font-style: italic; color:brown; font-size: 36px;
 }
 .Last-portion{
     background-color: blanchedalmond;
